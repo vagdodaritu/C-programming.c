@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+
+    printf("Name:Ritu Vagdoda\nID Number:25CE128\n");
+    const int ROWS=5;
+    for(int i=1;i<=ROWS;i++)
+    {
+        for (int j=1;j<=i;j++)
+        {
+            if(j%2!=0)
+            {
+                printf("1");
+            }
+            else
+            {
+                printf("0");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
